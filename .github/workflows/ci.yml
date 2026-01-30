@@ -1,8 +1,10 @@
+# workflow enabled
 name: CI Pipeline
 
 on:
   push:
-    branches: [ "main" ]
+    branches:
+      - main
 
 jobs:
   build:
