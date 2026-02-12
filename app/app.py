@@ -8,7 +8,7 @@ tag_index = {}
 
 @app.route("/health", methods=["GET"])
 def health():
-    return "OK", 200
+    return "OK - Deployed", 200
 
 
 @app.route("/snippet", methods=["POST"])
